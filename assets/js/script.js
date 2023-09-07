@@ -1,5 +1,5 @@
 // print some info
-console.log('miko swaggin fr fr fr');
+console.log('what are you doing here');
 
 // array prototype extension
 Array.prototype.random = function() {
@@ -28,13 +28,13 @@ let songsPlayed = [];
 
 // define messages to display
 let messages = [
-    'heyo, im Kn0z/zquv',
+    'Hello, im Kn0z/zquv.',
     'i\'m 16.',
-    'I live in the UAE',
+    'I live in the UAE.',
     '<a target="_blank" href="https://steamcommunity.com/id/kn-z/">steamcommunity.com/id/MikoWTF/</a> - My steam profile.',
-    '<a target="_blank" href="https://www.instagram.com/zquv/">instagram.com/6z.bl/</a> - My instagram page.',
-    '<a target="_blank" href="https://soundcloud.com/6zs">soundcloud.com/mi-k0</a> - My soundcloud profile.',
-    '<a target="_blank" href="https://www.youtube.com/channel/@kn0z">youtube.com/channel/@kn0z</a> - My youtube channel!',
+    '<a target="_blank" href="https://www.instagram.com/zquv/">instagram.com/zquv/</a> - My instagram page.',
+    '<a target="_blank" href="https://soundcloud.com/6zs">soundcloud.com/6zs</a> - My soundcloud profile.',
+    '<a target="_blank" href="https://www.youtube.com/channel/@kn0z">youtube.com/channel/@kn0z</a> - My youtube channel.',
 ];
 
 // define songs
@@ -91,7 +91,7 @@ $(document).ready(function() {
 // load the main page and execute required functions
 function startIt() {
     // set the document title
-    document.title = 'm1ko.xyz | home';
+    document.title = 'zquv was here';
 
     // get a random song
     let song = songs.random();
@@ -142,7 +142,7 @@ $(document).on('click', function(e) {
 // type new text
 function newText() {
     // insert a new element into the dom
-    $('#contentinner').append(`<div class="instruction"> <span class="user">mikooo@127.0.0.1</span>: <span class="path">~</span>$ <span id="command${currentlyOn}" class="command"></span> <span class="blinking-cursor" id="blinkingcursor">_</span> </div>`);
+    $('#contentinner').append(`<div class="instruction"> <span class="user">zquv@127.0.0.1</span>: <span class="path">~</span>$ <span id="command${currentlyOn}" class="command"></span> <span class="blinking-cursor" id="blinkingcursor">_</span> </div>`);
     // initialize a new instance of typeit
     new TypeIt(`#command${currentlyOn}`, {
         strings: messages[currentlyOn],
