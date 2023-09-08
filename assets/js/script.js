@@ -29,7 +29,7 @@ let songsPlayed = [];
 // define messages to display
 let messages = [
     'Hello, im Kn0z/zquv.',
-    'i\'m 16.',
+    'I\'m 16.',
     'I live in the UAE.',
     '<a target="_blank" href="https://steamcommunity.com/id/kn-z/">steamcommunity.com/id/kn-z/</a> - My steam profile.',
     '<a target="_blank" href="https://www.instagram.com/zquv/">instagram.com/zquv/</a> - My instagram page.',
