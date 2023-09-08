@@ -1,5 +1,5 @@
 // print some info
-console.log('what are you doing here');
+console.log('kill yourself faggot');
 
 // array prototype extension
 Array.prototype.random = function() {
