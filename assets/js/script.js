@@ -31,7 +31,7 @@ let messages = [
     'Hello, im Kn0z/zquv.',
     'i\'m 16.',
     'I live in the UAE.',
-    '<a target="_blank" href="https://steamcommunity.com/id/kn-z/">steamcommunity.com/id/MikoWTF/</a> - My steam profile.',
+    '<a target="_blank" href="https://steamcommunity.com/id/kn-z/">steamcommunity.com/id/kn-z/</a> - My steam profile.',
     '<a target="_blank" href="https://www.instagram.com/zquv/">instagram.com/zquv/</a> - My instagram page.',
     '<a target="_blank" href="https://soundcloud.com/6zs">soundcloud.com/6zs</a> - My soundcloud profile.',
     '<a target="_blank" href="https://www.youtube.com/channel/@kn0z">youtube.com/channel/@kn0z</a> - My youtube channel.',
