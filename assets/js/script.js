@@ -39,7 +39,7 @@ let messages = [
 
 // define songs
 let songs = [
-    ['NEWMAGICWND.mp', ' :))']
+    ['mehad.mp3', 'ميحد حمد - تدلل']
 ]
 
 // loaded audio callback
@@ -66,7 +66,7 @@ function endedAudioCallback() {
     wave = new CircularAudioWave(document.getElementById('canvas'));
 
     // load assets/song.mp3 then play
-    wave.loadAudio(`assets/songs/${song[0]}`);
+    wave.loadAudio(`assets/${song[0]}`);
 
     // set the currently playing text
     $('#playingtext').text(song[1]);
