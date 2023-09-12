@@ -67,7 +67,7 @@ function endedAudioCallback() {
 
     // load assets/song.mp3 then play
     wave.loadAudio(`assets/songs/${song[0]}`);
-    
+
     // set the currently playing text
     $('#playingtext').text(song[1]);
 
@@ -183,4 +183,3 @@ function visualizeAudio() {
         }
     }
 }
-
